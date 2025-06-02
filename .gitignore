@@ -1,0 +1,11 @@
+.vscode/
+obj/
+bin/
+bulid/
+publish/
+
+extra/
+test/v1/
+
+*.bin
+*.nes

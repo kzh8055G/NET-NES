@@ -34,7 +34,7 @@ Want to use it, and mess around? Here's how you can get started! </br>
    - On MacOS, there might be a pop up saying "Apple could not verify", this is normal. Simply right click on the app, then open, then open again. You also go to System Settings, then security, then allow. You only need to do this once during the first time. 
    - You may also need to enable execute permission on "Unix-like Oses"
    - If you want to use the <strong>terminal</strong>: Point your terminal to the application and run, Windows: `NET-NES --nes <string:rom>`, Unix-like Oses `./NET-NES --nes <string:rom>`
-5. You are ready to go!
+4. You are ready to go!
 
 ### Controls
 - (A) = X
@@ -101,7 +101,7 @@ Most NES cartridges came with mapper chips to support different sizes of larger 
 
 Most games I tried out works. Some games may have some graphical glitches, or might just freeze. This is because even though I have emulated the base NES system, the emulation itself is not fully accurate. This because the PPU emulation I did running by scanline, and not dot by dot, meaning there is some timming inaccuracy that can effect a few games. More infomation in the Program Architechture section. However, most games should run fine, here is list of games I tested:
 ```
-Ballon Fight - Works
+Balloon Fight - Works
 Bubble Bobble - Works
 Castlevania - Works
 Castlevania II - Works

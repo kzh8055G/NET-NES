@@ -672,8 +672,10 @@ public class CPU {
         }
     }
 
-    private AddrResult Implied() {
-        return new AddrResult(0, 0);
+	private AddrResult Implied()
+	{
+		return new AddrResult(0, 0);
+		
     }
 
     private AddrResult Accumulator() {
